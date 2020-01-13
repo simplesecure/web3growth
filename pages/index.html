@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon.ico">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="description" content="Don't just get people to sign up for your blockchain apps, make sure they want to come back again and again.">
+    <meta name="keywords" content="Authentication, Storage, Secure, Oauth, Simple, Encryption, Blockstack, Ethereum, Blockchain, Decentralization, Engagement, Re-engagement, Retention, Analytics">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.simpleid.xyz">
+    <meta name="twitter:site" content="@stealthyinc">
+    <meta name="twitter:title" content="SimpleID: Amplify Your User Growth">
+    <meta name="twitter:description" content="Don't just get people to sign up for your blockchain apps, make sure they want to come back again and again.">
+    <meta name="twitter:image" content="https://www.simpleid.xyz/assets/img/OGCard1.png">
+    <title>SimpleID - Blockchain engagement and retention platform</title>
+    <!-- Begin loading animation -->
+    <link href="assets/css/loaders/loader-pulse.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- End loading animation -->
+    <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700&display=swap" rel="stylesheet">
+
+    <!--Dev/Prod setup-->
+    <script type="text/javascript">
+      const hostName = window.location.hostname
+      const isDevelopment = (hostName === '' || hostName === 'localhost' || hostName === '127.0.0.1');
+
+      const amplitudeKey = (isDevelopment) ? 'f44acee7b5df07742070770017e1cc64' :
+                                             'cacaa44d1730abe2439279a160e5e8c1';
+    </script>
+  </head>
+
+  <body>
+    <div class="loader">
+      <div class="loading-animation"></div>
+    </div>
+    <div class="navbar-container">
+      <nav style="background-color: transparent;" class="navbar navbar-expand-lg navbar-light" data-overlay>
+        <div class="container">
+          <a onclick="logButton('Header Logo')" class="navbar-brand navbar-brand-dynamic-color" href="https://www.simpleid.xyz" target="_blank">
+            <img alt="SimpleID" class="logo" src="assets/img/logos/simpleid1.svg">
+          </a>
+          <div class="d-flex align-items-center order-lg-3">
+            <!-- <a onclick="logButton('Header Start For Free')" href="#pricing" class="btn btn-primary ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">Twitter</a>
+            <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+              <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon icon-sm" data-inject-svg src="assets/img/icons/interface/icon-menu.svg">
+              <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon icon-sm" data-inject-svg src="assets/img/icons/interface/icon-x.svg">
+            </button> -->
+            <a href="https://twitter.com/stealthyinc" target="_blank" class="btn btn-lg btn-outline-light rounded-circle m-2 m-md-3" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/icons/social/twitter.svg" alt="Twitter" class="icon bg-white" data-inject-svg>
+            </a>
+          </div>
+          <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end" id="navigation-menu">
+            <ul class="navbar-nav my-3 my-lg-0">
+              <!-- <li class="nav-item">
+                <a onclick="logButton('Header Features')" aria-expanded="false" aria-haspopup="true" class="nav-link nav-item" href="#features" role="button">Features</a>
+              </li>
+              <li class="nav-item">
+                <a onclick="logButton('Header Pricing')" aria-expanded="false" aria-haspopup="true" class="nav-link nav-item" href="#pricing" role="button">Pricing</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section class="bg-gradient text-white p-0 o-hidden">
+      <div class="container min-vh-100 d-flex flex-column justify-content-between text-center py-4 py-md-5">
+        <!-- <a href="index.html" class="fade-page">
+          <img src="assets/img/logos/jumpstart.svg" alt="Jumpstart" class="bg-white" data-inject-svg>
+        </a> -->
+        <div class="my-5">
+          <div style="margin-top: 2rem; margin-bottom: 2rem;" class="row section-title justify-content-center text-center">
+            <div class="col-md-12 col-lg-12 col-xl-9">
+              <h1 class="display-3">Web3 Growth Series</h1>
+              <div class="lead">The definitve guide to Web3 growth difficulties, solutions, and predictions for 2020.</div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-9 col-md-10">
+              <div class="card card-body bg-white flex-row flex-wrap justify-content-around add-countdown-time" data-countdown-date="2020/01/22" data-detailed>
+                <div class="mx-4 my-4 my-md-0 text-center">
+                  <div class="h1 mb-2" data-days></div>
+                  <span>Days</span>
+                </div>
+                <div class="mx-4 my-4 my-md-0 text-center">
+                  <div class="h1 mb-2" data-hours></div>
+                  <span>Hours</span>
+                </div>
+                <div class="mx-4 my-4 my-md-0 text-center">
+                  <div class="h1 mb-2" data-minutes></div>
+                  <span>Minutes</span>
+                </div>
+                <div class="mx-4 my-4 my-md-0 text-center">
+                  <div class="h1 mb-2" data-seconds></div>
+                  <span>Seconds</span>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 mt-lg-5">
+              <div class="col-lg-6 my-3 my-lg-0">
+                <div class="row flex-column flex-sm-row align-items-center">
+                  <a class="col-sm-5 mb-4 mb-sm-0" href="#">
+                    <img class="img-fluid hover-fade-out avatar avatar-lg flex-shrink-0" style="width: 9rem; height: 9rem;" src="assets/img/avatars/jaynti.jpg" alt="Avatar">
+                  </a>
+                  <div class="col">
+                    <div class="mb-4">
+                      <img src="assets/img/logos/brand/matic.png" class="icon icon-xl" style="height: 8.5rem; margin-bottom: -3.5rem; margin-top: -3.3rem;">
+                    </div>
+                    <div>
+                      <a class="h4" href="#">&ldquo;...get to the point where we don’t ask if apps are using blockchain...&rdquo;</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 my-3 my-lg-0">
+                <div class="row flex-column flex-sm-row align-items-center">
+                  <a class="col-sm-5 mb-4 mb-sm-0" href="#">
+                    <img class="img-fluid hover-fade-out avatar avatar-lg flex-shrink-0" style="width: 9rem; height: 9rem;" src="assets/img/avatars/evgeny.jpeg" alt="Avatar">
+                  </a>
+                  <div class="col">
+                    <div class="mb-4">
+                      <img src="assets/img/logos/brand/zerion.svg" class="icon icon-sm">
+                    </div>
+                    <div>
+                      <a class="h4" href="#">&ldquo;...next step is to figure out how to break out of the small community...&rdquo;</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top: 2rem;" class="col-lg-8 col-md-9">
+              <form data-form-email action="https://xyz.us3.list-manage.com/subscribe/post?u=62b7e84964f108856f2967bde&amp;id=ef17d43d57" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <!-- <form data-form-email novalidate action="/forms/mailchimp.php"> -->
+                <div class="d-flex flex-column flex-sm-row form-group">
+                  <!-- <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" class="form-control form-control-lg mr-sm-2 mb-2 mb-sm-0 h-100" name="email" placeholder="Email Address" type="email" required> -->
+                  <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="required email form-control form-control-lg mr-sm-2 mb-2 mb-sm-0 h-100" name="email" placeholder="Email Address" type="email" required>
+                  <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-primary btn-loading" type="submit" data-loading-text="Sending">
+                    <!-- Icon for loading animation -->
+                    <svg class="icon bg-white" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <title>Icon For Loading</title>
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g>
+                          <polygon points="0 0 24 0 24 24 0 24" opacity="0"></polygon>
+                        </g>
+                        <path d="M12,4 L12,6 C8.6862915,6 6,8.6862915 6,12 C6,15.3137085 8.6862915,18 12,18 C15.3137085,18 18,15.3137085 18,12 C18,10.9603196 17.7360885,9.96126435 17.2402578,9.07513926 L18.9856052,8.09853149 C19.6473536,9.28117708 20,10.6161442 20,12 C20,16.418278 16.418278,20 12,20 C7.581722,20 4,16.418278 4,12 C4,7.581722 7.581722,4 12,4 Z"
+                        fill="#000000" fill-rule="nonzero" transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) "></path>
+                      </g>
+                    </svg>
+                    <span>Subscribe</span>
+                  </button>
+                </div>
+                <div data-recaptcha data-sitekey="INSERT_YOUR_RECAPTCHA_V2_SITEKEY_HERE" data-size="invisible" data-badge="bottomleft"></div>
+                <div class="d-none alert alert-success w-100" role="alert" data-success-message>
+                  Thanks, a member of our team will be in touch shortly.
+                </div>
+                <div class="d-none alert alert-danger w-100" role="alert" data-error-message>
+                  Please fill all fields correctly.
+                </div>
+                <div class="text-muted">We will e-mail you the growth interviews as they are released.</div>
+              </form>
+            </div>
+          </div>
+          <!-- <div style="margin-top: 1rem"; class="text-muted"><a>&copy; 2019 Stealthy Inc</a></div> -->
+        </div>
+        <!-- <div>
+          <a href="https://twitter.com/stealthyinc" target="_blank" class="btn btn-sm btn-outline-light fade-page">Follow us on Twitter</a>
+        </div> -->
+      </div>
+      <!--End mc_embed_signup-->
+      <div class="blob blob-4 w-50 h-50 bg-white opacity-10 top right"></div>
+      <div class="blob w-25 h-25 bg-white opacity-10 bottom left"></div>
+    </section>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+    <!-- Required vendor scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+
+    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+    <!-- Clipboard (copies content from browser into OS clipboard) -->
+    <script type="text/javascript" src="assets/js/clipboard.min.js"></script>
+    <!-- Fancybox (handles image and video lightbox and galleries) -->
+    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+    <!-- Flatpickr (calendar/date/time picker UI) -->
+    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
+    <!-- Flickity (handles touch enabled carousels and sliders) -->
+    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
+    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+    <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
+    <!-- Isotope (masonry layouts and filtering) -->
+    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- jarallax (parallax effect and video backgrounds) -->
+    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
+    <!-- jQuery Countdown (displays countdown text to a specified date) -->
+    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+    <!-- jQuery smartWizard facilitates steppable wizard content -->
+    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+    <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
+    <!-- Prism (displays formatted code boxes) -->
+    <script type="text/javascript" src="assets/js/prism.js"></script>
+    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+    <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
+    <!-- Smooth scroll (animation to links in-page)-->
+    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
+    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+    <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
+    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+    <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
+    <!-- Typed text (animated typing effect)-->
+    <script type="text/javascript" src="assets/js/typed.min.js"></script>
+    <!-- Required theme scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/theme.js"></script>
+    <!-- Removes page load animation when window is finished loading -->
+    <script type="text/javascript">
+      window.addEventListener("load",function(){document.querySelector('body').classList.add('loaded');});
+    </script>
+
+    <!-- <script type="text/javascript">
+      // Insert the correct dev portal link based on environment.
+      let tValue =
+        (sourceEventProperties && sourceEventProperties.hasOwnProperty('t_code')) ?
+          sourceEventProperties['t_code'] : undefined
+
+      let tCodeArg = (tValue) ? `&t=${tValue}` : ''
+
+      const devSite = (isDevelopment) ?
+        `http://localhost:3000/?e=1&s=mkt_embed${tCodeArg}` :
+        `https://app.simpleid.xyz/?e=1&s=mkt_embed${tCodeArg}`
+      const iFrameHtml =
+        `<iframe frameborder="0" class="pt-1 d-flex flex-grow-1" style="min-width:290px; min-height:550px" src="${devSite}"></iframe>`
+
+      //document.getElementById("devPortalIFrame").innerHTML = iFrameHtml
+    </script> -->
+    <script>
+      function handleSolution(solution) {
+        document.getElementById('feature-disc').style.display = "none";
+        document.getElementById(solution).style.display = "block";
+
+        if(document.getElementById(`${solution}-extra`).style.display === "block") {
+          document.getElementById(`${solution}-extra`).style.display = "none";
+        } else {
+          document.getElementById(`${solution}-extra`).style.display = "block";
+        }
+
+
+        const solutions = [
+          "passwordless",
+          "social",
+          "notifications",
+          "insights",
+          "re-engagement"
+        ]
+        const subSolutions = [
+          "passwordless-extra",
+          "social-extra",
+          "notifications-extra",
+          "insights-extra",
+          "re-engagement-extra"
+        ]
+        const hiddenSolutions = solutions.filter(a => a !== solution);
+        const hiddenSubSolutions = subSolutions.filter(b => b !== `${solution}-extra`);
+
+        for(const hiddenSolution of hiddenSolutions) {
+          document.getElementById(hiddenSolution).style.display = "none";
+        }
+        for(const hiddenSubSolution of hiddenSubSolutions) {
+          document.getElementById(hiddenSubSolution).style.display = "none";
+        }
+
+      }
+    </script>
+    <!-- <script type="text/javascript">
+      const savingsTable = {
+        "75": "$15,150.00",
+        "90": "$18,180.00",
+        "105": "$21,210.00",
+        "120": "$24,240.00",
+        "135": "$27,270.00",
+        "150": "$30,300.00",
+        "165": "$33,330.00",
+        "180": "$36,360.00",
+        "195": "$39,390.00",
+        "210": "$42,420.00",
+        "225": "$45,450.00"
+      }
+      var rate = "80";
+      const dataSlider = document.getElementById('hourly-data');
+      document.addEventListener("DOMContentLoaded", function(event) {
+        console.log(dataSlider.value);
+        rate = "225";
+        document.getElementById('savings').innerText = savingsTable[rate];
+      });
+
+      function handleSliderChange() {
+        console.log(dataSlider.value);
+        rate = dataSlider.value;
+        document.getElementById('savings').innerText = savingsTable[rate];
+      }
+    </script> -->
+    <script>
+      function submitForApiKey(event) {
+        event.preventDefault();
+        let email;
+        if(document.getElementById('email').value.length > 0) {
+          email = document.getElementById('email');
+        } else {
+          email = document.getElementById('email-2');
+        }
+        console.log(email.value);
+        const today = new Date();
+        const day = today.getDate();
+        const month = today.getMonth() + 1;
+        const year = today.getFullYear();
+        const monthDayYear = month + "/" + day + "/" + year;
+
+        const payload = {
+          email: email.value,
+          date: monthDayYear
+        }
+        //Make request to send email address here
+        email.value = "";
+        document.getElementById('sign-up-form').style.display = "none";
+        document.getElementById('sign-up-form-2').style.display = "none";
+        document.getElementById('sign-up-confirm').style.display = "block";
+        document.getElementById('sign-up-confirm-2').style.display = "block";
+        fetch('https://hooks.zapier.com/hooks/catch/2565501/o4mepyb/', {
+          method: 'post',
+          body: JSON.stringify(payload)
+        }).then(function(response) {
+          return response.json();
+        }).then(function(data) {
+          console.log(data);
+        });
+      }
+    </script>
+  </body>
+
+</html>
