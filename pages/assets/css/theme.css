@@ -13675,5 +13675,5 @@ pre[class*="language-"] {
 }
 
 .logo {
-  height: 75px;
+  max-width: 200px;
 }
